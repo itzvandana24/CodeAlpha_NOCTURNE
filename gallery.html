@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery-Nocturne</title>
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google fonts link -->
+
+    <!-- Branding font: Cinzel Decorative -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Body and content font: Exo2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg nocturne-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">NOCTURNE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" aria-disabled="true" href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container my-3">
+      <!-- Hero Section -->
+      <section class="row">
+        <div class="col-12">
+          <div class="gallery-hero-section mb-3">
+            <div>
+              <p class="mb-2">THE COLLECTION</p>
+              <h1 class="mb-3">Nature,<br />through another lens.</h1>
+              <p>
+                A curated collection of moments, places and people after sunset.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Filter Section -->
+      <section class="gallery-filter-section row align-items-center">
+        <div class="col-lg-9 col-md-8">
+          <button
+            class="filter-toggle mb-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#categoryOptions"
+            aria-expanded="false"
+            aria-controls="categoryOptions"
+          >
+            <i class="fa-solid fa-sliders"></i>
+            EXPLORE GALLERY
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <!-- Adding coolapse feature -->
+          <div class="collapse category-collapse" id="categoryOptions">
+            <div class="category-filters mb-3">
+              <button class="filter-btn all-btn active" data-filter="all">
+                ALL
+              </button>
+              <button class="filter-btn city-btn" data-filter="city">
+                CITY
+              </button>
+              <button class="filter-btn forest-btn" data-filter="forest">
+                FOREST
+              </button>
+              <button class="filter-btn water-btn" data-filter="water">
+                WATER
+              </button>
+              <button class="filter-btn night-btn" data-filter="night">
+                NIGHT
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section (Outer layout with Bootstrap rest with Vanilla CSS inside class gallery-wrapper) -->
+      <section class="row gallery-section" id="gallery">
+        <div class="col-12 container">
+          <div class="gallery-wrapper">
+            <!-- City Images -->
+
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img1.jpeg"
+                alt="city-rainy-street"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img2.jpeg"
+                alt="city-casino-building"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img3.jpeg"
+                alt="city-mall-building"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img4.jpeg"
+                alt="city-roadways-tunnel"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img5.jpeg"
+                alt="city-typhoon-building"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img6.jpeg"
+                alt="city-rainy-siidewalks"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img7.jpeg"
+                alt="city-gauge"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img8.jpeg"
+                alt="city-neon-market-place"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img9.jpeg"
+                alt="city-subway-shops"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-img10.jpeg"
+                alt="city-night-waterfall-bridge"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="city">
+              <img
+                src="assets/images/gallery/City_images/city-extra.jpeg"
+                alt="city-rainy-subways"
+                class="gallery-image"
+              />
+            </div>
+
+            <!-- Forset Images -->
+
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img1.jpeg"
+                alt="forest-tulips"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img2.jpeg"
+                alt="forest-lotus"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img3.jpeg"
+                alt="forest-wild-mountains"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img4.jpeg"
+                alt="forest-green-pathways"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img5.jpeg"
+                alt="forest-dark-breach"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img6.jpeg"
+                alt="forest-waterfalls"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img7.jpeg"
+                alt="forest-sunshine"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img8.jpeg"
+                alt="forest-foggy"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-img9.jpeg"
+                alt="forest-wooody-trees"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="forest">
+              <img
+                src="assets/images/gallery/Forest_images/forest-extra.jpeg"
+                alt="forest-blue-dawns"
+                class="gallery-image"
+              />
+            </div>
+
+            <!-- Night Images -->
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img1.jpeg"
+                alt="night-half-moon"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img2.jpeg"
+                alt="night-lunar-moon"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img3.jpeg"
+                alt="night-waterfall"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img4.jpeg"
+                alt="night-woody-dawns"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img5.jpeg"
+                alt="night-full-moon"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img6.jpeg"
+                alt="night-moon-forest"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img7.jpeg"
+                alt="night-ocean-waves-palestile"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img8.jpeg"
+                alt="night-foggy-sky"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img9.jpeg"
+                alt="night-celestial-sky"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="night">
+              <img
+                src="assets/images/gallery/Night_images/night-img10.jpeg"
+                alt="night-stars-outshine"
+                class="gallery-image"
+              />
+            </div>
+
+            <!-- Water Images -->
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img1.jpeg"
+                alt="water-dolphin-dive"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img2.jpeg"
+                alt="water-jellyfish"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img3.jpeg"
+                alt="water-turtle"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img4.jpeg"
+                alt="water-inside-blue"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img5.jpeg"
+                alt="water-ocean-waves"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img6.jpeg"
+                alt="water-ocean-dark-shadow"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img7.jpeg"
+                alt="water-marine-beach-waves"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img8.jpeg"
+                alt="water-dwans-beach-tides"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-img9.jpeg"
+                alt="water-illuminating-star-skyfall"
+                class="gallery-image"
+              />
+            </div>
+            <div class="gallery-item" data-category="water">
+              <img
+                src="assets/images/gallery/Water_images/water-extra.jpeg"
+                alt="water-morning-glitters"
+                class="gallery-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pagination Section -->
+      <section class="row justify-content-center gallery-pagination">
+        <div class="col-12">
+          <div class="pagination-wrapper mt-3">
+            <button
+              class="page-btn pagination-arrow"
+              id="prev-btn"
+              type="button"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="page-numbers" id="page-numbers">
+              <button class="page-btn active" data-page="1">1</button>
+              <button class="page-btn" data-page="2">2</button>
+              <button class="page-btn" data-page="3">3</button>
+              <button class="page-btn" data-page="4">4</button>
+            </div>
+
+            <button
+              class="page-btn pagination-arrow"
+              id="next-btn"
+              type="button"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Lightbox Creation -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <!-- Close Button -->
+      <button
+        type="button"
+        class="lightbox-close"
+        id="lightboxClose"
+        aria-label="Close image viewer"
+      >
+        &times;
+      </button>
+
+      <!-- Preview Button -->
+      <button
+        type="button"
+        class="lightbox-prev"
+        id="lightboxPrev"
+        aria-label="Previous image"
+      >
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <!-- Enlarged Image -->
+      <div class="lightbox-content">
+        <img src="" alt="" id="lightboxImage" />
+        <!-- Image Counter -->
+        <p class="lightbox-counter" id="lightboxCounter"></p>
+      </div>
+
+      <!-- Next Button -->
+      <button
+        class="lightbox-next"
+        id="lightboxNext"
+        type="button"
+        aria-label="Next image"
+      >
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <a href="index.html" class="footer-brand">NOCTURNE</a>
+
+        <p class="footer-tagline">The world after sunset.</p>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+        </nav>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 NOCTURNE. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
