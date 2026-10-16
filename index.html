@@ -39,7 +39,7 @@
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
 
   <body>
@@ -70,78 +70,353 @@
       </div>
     </nav>
     <main>
-    
-      <section class="py-5">
-        <!-- Hero Section -->
+      <!-- Hero Section -->
+      <section class="hero-section hero-animated">
         <div id="hero-section" class="container">
-          <hr class="w-25 mb-4" />
-          <h1 class="mb-3">THE WORLD AFTER SUNSET</h1>
-          <p class="mb-4">Stories hidden in the dark.</p>
-          <a href="gallery.html">
-            EXPLORE COLLECTION
-           <i class="fa-solid fa-arrow-right"></i>
-          </a>
+          <div class="hero-content">
+            <div class="hero-copy">
+              <span class="hero-eyebrow">
+                <span class="hero-dot"></span>
+                A VISUAL JOURNEY AFTER DARK
+              </span>
+
+              <h1 class="hero-reveal">
+                THE WORLD
+                <span>AFTER SUNSET.</span>
+              </h1>
+
+              <p class="hero-description hero-reveal">
+                Stories hidden in the dark. Discover the quiet, the distant, and
+                the unseen through another lens.
+              </p>
+
+              <a href="gallery.html" class="hero-link hero-reveal">
+                EXPLORE COLLECTION
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="hero-collage">
+              <div class="hero-image hero-image-main">
+                <img src="assets/images/home/home_featured_img/feature_7.jpeg" alt="dandelion_ciematic" />
+              </div>
+
+              <div class="hero-image hero-image-secondary">
+                <img src="assets/images/gallery/Night_images/night-img5.jpeg" alt="cinematic_moonlight_forest" />
+              </div>
+
+              <div class="hero-image hero-image-tertiary">
+                <img src="assets/images/home/home_hero_img/hero.jpg" alt="cinematic_shady_view" />
+              </div>
+
+              <span class="hero-image-caption">
+                FRAME NO. 001 — AFTER DARK
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-bottom">
+            <span>WHERE LIGHT MEETS SHADOW</span>
+            <span>SCROLL TO EXPLORE ↓</span>
+          </div>
         </div>
       </section>
 
-      <section class="py-5">
-        <!-- Introduction Section -->
+      <!-- Introduction Section -->
+      <section class="intro-section reveal">
         <div id="intro-section" class="container">
-          <span class="mb-3">About Nocturne</span>
-          <h2 class="mb-4">
-            When daylight fades,another world begins to reveal itself.
-          </h2>
-          <p class="mb-4">
-            NOCTURNE is a visual collection of places, moments and landescapes
-            after sunset.It's a journey through the quite, distant and the
-            unseen - captured in light, shadow and time.
-          </p>
-          <a href="about.html">
-            READ MORE
+          <!-- Editorial Topline -->
+          <div class="intro-topline">
+            <span class="intro-number">01 / INTRODUCTION</span>
+            <span class="intro-topline-label">ABOUT NOCTURNE</span>
+          </div>
+
+          <div class="intro-label">
+            <span class="intro-line"></span>
+            <span>ABOUT NOCTURNE</span>
+          </div>
+
+          <div class="intro-content">
+            <!-- Main Headline -->
+            <div class="intro-heading-wrap">
+              <h2>
+                When daylight fades,
+                <span>another world begins</span>
+                to reveal itself.
+              </h2>
+            </div>
+
+            <!-- Description and Link -->
+            <div class="intro-description">
+              <p>
+                NOCTURNE is a visual collection of places, moments and
+                landscapes after sunset. A journey through the quiet, the
+                distant and the unseen — captured in light, shadow and time.
+              </p>
+
+              <a href="about.html" class="intro-link">
+                DISCOVER OUR STORY
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          <!-- Editorial Footer -->
+          <div class="intro-bottom">
+            <span>BEYOND THE ORDINARY</span>
+            <span>LIGHT &nbsp; / &nbsp; SHADOW &nbsp; / &nbsp; SILENCE</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Stories Section -->
+      <section class="featured-section reveal">
+        <div class="container">
+          <!-- Section Heading -->
+          <div class="featured-header">
+            <div>
+              <div class="featured-label">
+                <span class="featured-line"></span>
+                FEATURED STORIES
+              </div>
+              <h2 class="reveal">Frames from <span>another world.</span></h2>
+            </div>
+
+            <p class="featured-intro reveal reveal-delay-1">
+              A closer look at the moments that exist between light and
+              darkness.
+            </p>
+          </div>
+
+          <!-- Photography Slider -->
+          <div class="featured-slider" id="featured-slider">
+            <div class="featured-track" id="featured-track">
+              <!-- Slide 1 -->
+              <article class="featured-slide">
+                <div class="featured-image">
+                  <img
+                    src="assets/images/home/home_featured_img/fetaure_1.jpeg"
+                    alt="slider_img1"
+                  />
+                  <span class="slide-number">01 / 03</span>
+                </div>
+                <div class="featured-caption">
+                  <div>
+                    <span class="story-category">01 — THE WILDERNESS</span>
+                    <h3>Where silence lives</h3>
+                  </div>
+                  <span class="story-arrow">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+                </div>
+              </article>
+
+              <!-- Slide 2 -->
+              <article class="featured-slide">
+                <div class="featured-image">
+                  <img
+                    src="assets/images/home/home_hero_img/hero-img2.jpeg"
+                    alt="slider_img2"
+                  />
+                  <span class="slide-number">02 / 03</span>
+                </div>
+                <div class="featured-caption">
+                  <div>
+                    <span class="story-category">02 — THE CITY</span>
+                    <h3>Lights in the distance</h3>
+                  </div>
+                  <span class="story-arrow">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+                </div>
+              </article>
+
+              <!-- Slide 3 -->
+              <article class="featured-slide">
+                <div class="featured-image">
+                  <img
+                    src="assets/images/gallery/Night_images/night-img8.jpeg"
+                    alt="slider_img3"
+                  />
+                  <span class="slide-number">03 / 03</span>
+                </div>
+                <div class="featured-caption">
+                  <div>
+                    <span class="story-category">03 — STILL WATERS</span>
+                    <h3>Between sky and sea</h3>
+                  </div>
+                  <span class="story-arrow">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </span>
+                </div>
+              </article>
+            </div>
+
+            <!-- Slider Controls -->
+            <div class="featured-controls">
+              <span class="slider-status">
+                <span id="current-slide">01</span>
+                <span class="slider-divider">/</span>
+                <span>03</span>
+              </span>
+
+              <div class="slider-progress">
+                <span id="slider-progress-bar"></span>
+              </div>
+
+              <div class="slider-buttons">
+                <button
+                  type="button"
+                  id="featured-prev"
+                  aria-label="Previous featured story"
+                >
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+                <button
+                  type="button"
+                  id="featured-next"
+                  aria-label="Next featured story"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- View All -->
+          <a href="gallery.html" class="featured-view-all">
+            VIEW FULL COLLECTION
             <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
       </section>
 
-      <section class="py-5">
-         <!-- Featured Section -->
-        <div id="featured-section" class="container">
-          <span class="mb-4">
-            FEATURED STORIES
-            <i class="fa-solid fa-arrow-right"></i>
-          </span>
-          USE SLIDER IMG ANNIMATION HERE
+      <!-- Visual Statement Section -->
+      <section class="visual-statement reveal">
+        <div class="visual-statement-inner">
+          <!-- Section Label -->
+          <div class="statement-label">
+            <span class="statement-dot"></span>
+            BEYOND WHAT THE EYE CAN SEE
+          </div>
+
+          <!-- Main Statement -->
+          <h2 class="statement-heading reveal">
+            Some worlds
+            <span>only exist</span>
+            <span class="statement-highlight">after dark.</span>
+          </h2>
+
+          <!-- Supporting Text -->
+          <p class="statement-description reveal">
+            When the world grows quiet, the extraordinary begins to reveal
+            itself. We capture the moments that daylight leaves behind.
+          </p>
+          <!-- Bottom Details -->
+          <div class="statement-footer">
+            <span>THE WORLD AFTER SUNSET</span>
+            <span>EST. 2026</span>
+          </div>
         </div>
       </section>
 
-      <section class="py-5">
-        <!-- Visual Statement -->
-        <div id="visual statement" class="container">
-        <h2 class="mb-3">After dark, everything feels different.</h2>
-      </div>
-      </section>
+      <!-- Gallery Preview Section -->
+      <section class="gallery-preview-section reveal">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="gallery-preview-header">
+            <div>
+              <span class="gallery-preview-label">THE COLLECTION</span>
+              <h2 class="reveal">Latest <span>Frames.</span></h2>
+            </div>
 
-      <section class="py-5">
-        <!-- Gallery Section -->
-         <div id="gallery-preview" class="container">
-          gallery images privew another image slider
+            <p class="gallery-preview-description reveal">
+              A glimpse into the places, moments and emotions that stay with us
+              long after the light fades.
+            </p>
+          </div>
+
+          <!-- Gallery Preview Grid -->
+          <div class="gallery-preview-grid">
+            <!-- Image 1 -->
+            <a href="gallery.html" class="preview-card preview-card-large">
+              <img
+                src="assets/images/home/home_hero_img/hero-img5.jpeg"
+                alt="Misty forest fading into darkness"
+              />
+              <div class="preview-card-overlay">
+                <span>01 / WILDERNESS</span>
+                <h3>Into the Unknown</h3>
+              </div>
+            </a>
+
+            <!-- Image 2 -->
+            <a href="gallery.html" class="preview-card">
+              <img
+                src="assets/images/gallery/City_images/city-img7.jpeg"
+                alt="City lights glowing after sunset"
+              />
+              <div class="preview-card-overlay">
+                <span>02 / AFTER HOURS</span>
+                <h3>City of Shadows</h3>
+              </div>
+            </a>
+
+            <!-- Image 3 -->
+            <a href="gallery.html" class="preview-card">
+              <img
+                src="assets/images/gallery/Water_images/water-img5.jpeg"
+                alt="Moonlight reflecting on dark water"
+              />
+              <div class="preview-card-overlay">
+                <span>03 / STILL WATERS</span>
+                <h3>Quiet Tides</h3>
+              </div>
+            </a>
+          </div>
+
+          <!-- View Collection -->
+          <div class="gallery-preview-footer">
+            <a href="gallery.html" class="gallery-preview-link">
+              EXPLORE THE FULL COLLECTION
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        <span class="mb-4">Latest Frames</span>
       </section>
 
-      <section class="py-5">
-        <!-- CTA Section -->
-        <div id="cta-ssection" class="container">
-        <h3 class="mb-4">Exlore the full collection</h3>
-        <a href="gallery.html">
-          GALLERY
-          <i class="fa-solid fa-arrow-right"></i>
-        </a>
-      </div>
-      </section>
+      <!-- CTA Section -->
+      <section class="nocturne-cta reveal">
+        <div class="container">
+          <div class="cta-content">
+            <span class="cta-label">
+              <span class="cta-label-line"></span>
+              YOUR NEXT DISCOVERY AWAITS
+            </span>
 
+            <h2 class="cta-heading reveal">
+              The night has
+              <span>more to reveal.</span>
+            </h2>
+
+            <p class="cta-description reveal">
+              Step into a collection of places, moments and stories that exist
+              beyond the ordinary.
+            </p>
+
+            <a href="gallery.html" class="cta-button">
+              EXPLORE THE COLLECTION
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="cta-bottom">
+            <span>NOCTURNE — THE WORLD AFTER SUNSET</span>
+            <span>KEEP LOOKING CLOSER.</span>
+          </div>
+        </div>
+      </section>
     </main>
-    
+
     <!-- Footer Section -->
     <footer class="site-footer">
       <div class="footer-content">
@@ -162,5 +437,7 @@
     </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
